@@ -10,5 +10,3 @@ RUN yum install -y \
 RUN pip3 install pip --upgrade
 
 RUN pip3 install tensorflow
-
-ENTRYPOINT ["tail", "-f", "/dev/null"]
