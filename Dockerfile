@@ -9,4 +9,4 @@ RUN yum install -y \
 
 RUN pip3 install pip --upgrade
 
-RUN pip3 install tensorflow==2.4.*
+RUN pip3 install tensorflow==2.5.*
